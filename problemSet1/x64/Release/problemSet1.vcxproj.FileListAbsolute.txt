@@ -1,0 +1,10 @@
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\problemSet1.vcxproj.CopyComplete
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\problemSet1.exe
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\opencv_core.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\zlib1.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\opencv_highgui.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\jpeg62.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\libpng16.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\tiff.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\lzma.dll
+E:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet1\x64\Release\opencv_imgproc.dll
