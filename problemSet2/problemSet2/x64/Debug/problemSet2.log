@@ -1,12 +1,1 @@
-﻿  Compiling CUDA source file student_func.cu...
-  
-  F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet2\problemSet2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\vcpkg\installed\\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\student_func.cu.obj "F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet2\problemSet2\student_func.cu" 
-  student_func.cu
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(378): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(378): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(381): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(392): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(393): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(394): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet2/problemSet2/student_func.cu(417): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  problemSet2.vcxproj -> F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet2\x64\Debug\problemSet2.exe
+﻿  problemSet2.vcxproj -> F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet2\x64\Debug\problemSet2.exe
