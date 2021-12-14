@@ -4,10 +4,10 @@ https://classroom.udacity.com/courses/cs344 <br/>
 This course teach the parallel programming techniques using CUDA language that use the power of Nvidia GPU in general purpose programming.</br>
 This repo contains the solutions done by me to the problem sets of the course. The problem sets focuses in the Image Processing techniques </br>
 ### Used Enviornment
-1- WIN 10
-2- MS VS 2019 C++ Package
-3- CUDA toolkit 10.1
-4- OPEN CV 2
+1- WIN 10 <br/>
+2- MS VS 2019 C++ Package <br/>
+3- CUDA toolkit 10.1 <br/>
+4- OPEN CV 2 <br/>
 
 ## Setting The Enviornment and Running The Codes
 1- Setup MS VS 2019 with (Desktop development with C++) package. <br/>
