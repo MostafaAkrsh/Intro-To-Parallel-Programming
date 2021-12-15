@@ -1,8 +1,8 @@
 # Intro-To-Parallel-Programming - Udacity Course
 Course Link : 
 https://classroom.udacity.com/courses/cs344 <br/>
-This course teach the parallel programming techniques using CUDA language that use the power of Nvidia GPU in general purpose programming.</br>
-This repo contains the solutions done by me to the problem sets of the course. The problem sets focuses in the Image Processing techniques </br>
+This course teaches the parallel programming techniques using CUDA language that uses the power of Nvidia GPUs in general purpose programming.</br>
+This repo contains the solutions done by me to the problem sets of the course. The problem sets focus in the Image Processing techniques </br>
 ### Used Enviornment
 1- WIN 10 <br/>
 2- MS VS 2019 C++ Package <br/>
