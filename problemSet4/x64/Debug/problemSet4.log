@@ -1,0 +1,84 @@
+﻿  Compiling CUDA source file HW4.cu...
+  Compiling CUDA source file student_func.cu...
+  
+  F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\vcpkg\installed\\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\HW4.cu.obj "F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\HW4.cu" 
+  
+  F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\vcpkg\installed\\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\student_func.cu.obj "F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\student_func.cu" 
+  student_func.cu
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/student_func.cu(146): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/student_func.cu(179): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/student_func.cu(197): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/student_func.cu(198): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  HW4.cu
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(255): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(256): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(257): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(260): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(264): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(273): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(282): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(346): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/system/cuda/detail/reduce.h(939): warning C4244: 'argument': conversion from 'Size' to 'int', possible loss of data
+          with
+          [
+              Size=size_type
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/system/cuda/detail/reduce.h(1017): note: see reference to function template instantiation 'T thrust::cuda_cub::detail::reduce_n_impl<thrust::cuda_cub::tag,InputIt,Size,T,BinaryOp>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,Size,T,BinaryOp)' being compiled
+          with
+          [
+              T=int,
+              InputIt=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>,
+              Size=size_type,
+              BinaryOp=thrust::plus<int>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/system/cuda/detail/reduce.h(1037): note: see reference to function template instantiation 'T thrust::cuda_cub::reduce_n<thrust::cuda_cub::tag,InputIt,size_type,T,BinaryOp>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,Size,T,BinaryOp)' being compiled
+          with
+          [
+              T=int,
+              InputIt=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>,
+              BinaryOp=thrust::plus<int>,
+              Size=size_type
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/system/cuda/detail/reduce.h(1049): note: see reference to function template instantiation 'T thrust::cuda_cub::reduce<thrust::cuda_cub::tag,InputIt,T,thrust::plus<T>>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,InputIt,T,BinaryOp)' being compiled
+          with
+          [
+              T=int,
+              InputIt=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>,
+              BinaryOp=thrust::plus<int>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/detail/reduce.inl(54): note: see reference to function template instantiation 'T thrust::cuda_cub::reduce<thrust::cuda_cub::tag,InputIterator,T>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,InputIt,T)' being compiled
+          with
+          [
+              T=int,
+              InputIterator=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>,
+              InputIt=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/detail/reduce.inl(168): note: see reference to function template instantiation 'T thrust::reduce<DerivedPolicy,InputIterator,T>(const thrust::detail::execution_policy_base<DerivedPolicy> &,InputIterator,InputIterator,T)' being compiled
+          with
+          [
+              T=int,
+              DerivedPolicy=thrust::cuda_cub::tag,
+              InputIterator=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>
+          ]
+  F:/Study Comp IV/Cuda WS/Intro To Parallel Programming/problemSet4/HW4.cu(251): note: see reference to function template instantiation 'T thrust::reduce<thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>,int>(InputIterator,InputIterator,T)' being compiled
+          with
+          [
+              T=int,
+              InputIterator=thrust::detail::normal_iterator<thrust::device_ptr<unsigned char>>
+          ]
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\thrust/system/cuda/detail/reduce.h(968): warning C4244: 'argument': conversion from 'Size' to 'int', possible loss of data
+          with
+          [
+              Size=size_type
+          ]
+  compare.cpp
+  loadSaveImage.cpp
+F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\loadSaveImage.cpp(84,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\loadSaveImage.cpp(85,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\loadSaveImage.cpp(100,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\loadSaveImage.cpp(101,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  reference_calc.cpp
+  Generating Code...
+     Creating library F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\x64\Debug\problemSet4.lib and object F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\x64\Debug\problemSet4.exp
+  problemSet4.vcxproj -> F:\Study Comp IV\Cuda WS\Intro To Parallel Programming\problemSet4\x64\Debug\problemSet4.exe
